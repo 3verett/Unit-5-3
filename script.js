@@ -5,21 +5,21 @@ document.getElementById('show').addEventListener('click', show)
 document.getElementById('bg').addEventListener('click', background)
 
 function image () {
-  document.getElementById('picture').src = "images/coolguy.png"
+  document.getElementById('picture').src = 'images/coolguy.png'
 }
 
 function text () {
-  document.getElementById('text').innerHTML = "POOF!!"
+  document.getElementById('text').innerHTML = 'POOF!!'
 }
 
 function hide () {
-  document.getElementById('text').style.display = "none"
+  document.getElementById('text').style.display = 'none'
 }
 
 function show () {
-  document.getElementById('text').style.display = "block"
+  document.getElementById('text').style.display = 'block'
 }
 
 function background () {
-  document.body.style.backgroundColor = "red"
+  document.body.style.backgroundColor = 'red'
 }
